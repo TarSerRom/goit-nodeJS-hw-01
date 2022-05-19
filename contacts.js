@@ -26,6 +26,7 @@ const listContacts = async() => {
         return null;
     }
     return result;
+    
   }
   const addContact = async(name, email, phone) => {
       const contacts = await listContacts();
