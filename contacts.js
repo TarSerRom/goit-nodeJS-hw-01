@@ -9,7 +9,6 @@ const checkContacts = async(contacts) => {
     await fs.writeFile(contactsPath, data);
 }
 
-// TODO: задокументировать каждую функцию
 const listContacts = async() => {
     try{
         const data = await fs.readFile(contactsPath);
